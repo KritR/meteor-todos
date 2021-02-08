@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
+import Typography from '@material-ui/core/Typography';
+import TodoForm from './TodoForm';
+import TodoList from './TodoList';
+import MeteorDiagram from './MeteorDiagram';
+import useTodoState from './useTodoState';
 import './App.css';
 
-function App() {
+const App = () => {
+  const initTodos = () => { 
+    const todos = JSON.parse(window.localStorage.getItem('todos')) || [];
+  };
+  const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState(initTodos);
+
+  useEffect(() => {
+    window.localStorage.setItem('todos', JSON.stringify(todos));
+  }, [todos]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="App-sidebar">
+        <Typography component="h1" variant="h2">
+          Todos
+        </Typography>
+
+        <TodoForm
+          saveTodo={addTodo}
+        />
+
+        <TodoList todos={todos} deleteTodo={deleteTodo} toggleComplete={toggleComplete} />
+      </div>
+      <MeteorDiagram todos={todos} />
     </div>
   );
-}
+};
 
 export default App;
