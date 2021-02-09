@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c680848.chunk.css",
-    "main.js": "/static/js/main.37e40f42.chunk.js",
-    "main.js.map": "/static/js/main.37e40f42.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2f9afd12.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2f9afd12.js.map",
-    "static/js/2.2cec7d93.chunk.js": "/static/js/2.2cec7d93.chunk.js",
-    "static/js/2.2cec7d93.chunk.js.map": "/static/js/2.2cec7d93.chunk.js.map",
-    "static/js/3.968b8054.chunk.js": "/static/js/3.968b8054.chunk.js",
-    "static/js/3.968b8054.chunk.js.map": "/static/js/3.968b8054.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0c680848.chunk.css.map": "/static/css/main.0c680848.chunk.css.map",
-    "static/js/2.2cec7d93.chunk.js.LICENSE.txt": "/static/js/2.2cec7d93.chunk.js.LICENSE.txt"
+    "main.css": "/meteor-todos/static/css/main.0c680848.chunk.css",
+    "main.js": "/meteor-todos/static/js/main.37e40f42.chunk.js",
+    "main.js.map": "/meteor-todos/static/js/main.37e40f42.chunk.js.map",
+    "runtime-main.js": "/meteor-todos/static/js/runtime-main.e877fe36.js",
+    "runtime-main.js.map": "/meteor-todos/static/js/runtime-main.e877fe36.js.map",
+    "static/js/2.2cec7d93.chunk.js": "/meteor-todos/static/js/2.2cec7d93.chunk.js",
+    "static/js/2.2cec7d93.chunk.js.map": "/meteor-todos/static/js/2.2cec7d93.chunk.js.map",
+    "static/js/3.968b8054.chunk.js": "/meteor-todos/static/js/3.968b8054.chunk.js",
+    "static/js/3.968b8054.chunk.js.map": "/meteor-todos/static/js/3.968b8054.chunk.js.map",
+    "index.html": "/meteor-todos/index.html",
+    "static/css/main.0c680848.chunk.css.map": "/meteor-todos/static/css/main.0c680848.chunk.css.map",
+    "static/js/2.2cec7d93.chunk.js.LICENSE.txt": "/meteor-todos/static/js/2.2cec7d93.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f9afd12.js",
+    "static/js/runtime-main.e877fe36.js",
     "static/js/2.2cec7d93.chunk.js",
     "static/css/main.0c680848.chunk.css",
     "static/js/main.37e40f42.chunk.js"
