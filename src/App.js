@@ -7,9 +7,9 @@ import useTodoState from './useTodoState';
 import './App.css';
 
 const App = () => {
-  const initTodos = () => { 
+  /*const initTodos = () => { 
     const todos = JSON.parse(window.localStorage.getItem('todos')) || [];
-  };
+  };*/
   const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState([]);
 
   useEffect(() => {

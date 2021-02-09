@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Sherlock from 'sherlockjs';
 
-export default (initialValue) => {
+const useTodos = (initialValue) => {
   const [todos, setTodos] = useState(initialValue);
 
   return {
@@ -28,3 +28,5 @@ export default (initialValue) => {
     }
   };
 };
+
+export default useTodos;
