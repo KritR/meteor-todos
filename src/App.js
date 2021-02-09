@@ -10,7 +10,7 @@ const App = () => {
   const initTodos = () => { 
     const todos = JSON.parse(window.localStorage.getItem('todos')) || [];
   };
-  const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState(initTodos);
+  const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState([]);
 
   useEffect(() => {
     window.localStorage.setItem('todos', JSON.stringify(todos));
