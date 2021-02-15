@@ -11,8 +11,8 @@ const useTodos = (initialValue) => {
       const todoData = Sherlock.parse(todoText);
       todoData.isComplete = false;
       todoData.priority = priority;
-      todoData.text = todoText;
       todoData.startDate = todoData.startDate || new Date();
+      todoData.time = todoData.startDate.getTime();
       setTodos([...todos, todoData]);
     },
     deleteTodo: (todoIndex) => {

@@ -7,10 +7,14 @@ import useTodoState from './useTodoState';
 import './App.css';
 
 const App = () => {
-  /*const initTodos = () => { 
-    const todos = JSON.parse(window.localStorage.getItem('todos')) || [];
-  };*/
-  const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState([]);
+  const initTodos = () => { 
+    let todos = JSON.parse(window.localStorage.getItem('todos')) || [];
+    return todos.map((t) => { 
+      const time = new Date(t.time);
+      return {...t, startDate: time};
+    });
+  };
+  const { todos, addTodo, deleteTodo, toggleComplete } = useTodoState(initTodos);
 
   useEffect(() => {
     window.localStorage.setItem('todos', JSON.stringify(todos));
