@@ -5,6 +5,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  height: 100vh;
 }
 
 .App-logo {
@@ -47,5 +48,4 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #eee;
-  height: 100vh;
 }

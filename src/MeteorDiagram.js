@@ -3,9 +3,11 @@ import "./App.css";
 import * as d3 from "d3";
 import { select } from "d3-selection";
 
-const [width, height] = [window.outerWidth / 2, window.outerHeight];
+const [width, height] = [window.innerWidth / 2, window.innerHeight];
 
 const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+
+const EARTH_HEIGHT = 50;
 
 // a and b are javascript Date objects
 function dateDiffInDays(a, b) {
@@ -69,7 +71,7 @@ class MeteorDiagram extends Component {
     select(svg)
       .append("circle")
       .attr("cx", "50%")
-      .attr("cy", "130%")
+      .attr("cy", height + (width / 2) - EARTH_HEIGHT)
       .attr("r", width / 2)
       .style("fill", "green");
 
@@ -110,8 +112,8 @@ class MeteorDiagram extends Component {
     return (
       <svg
         ref={(node) => (this.node = node)}
-        width={width}
-        height={height}
+        width="50%"
+        height="100%"
       ></svg>
     );
   }
