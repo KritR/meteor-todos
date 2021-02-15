@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/meteor-todos/static/css/main.0c680848.chunk.css",
-    "main.js": "/meteor-todos/static/js/main.88ebec6b.chunk.js",
-    "main.js.map": "/meteor-todos/static/js/main.88ebec6b.chunk.js.map",
+    "main.css": "/meteor-todos/static/css/main.bf62b488.chunk.css",
+    "main.js": "/meteor-todos/static/js/main.89a084fc.chunk.js",
+    "main.js.map": "/meteor-todos/static/js/main.89a084fc.chunk.js.map",
     "runtime-main.js": "/meteor-todos/static/js/runtime-main.e877fe36.js",
     "runtime-main.js.map": "/meteor-todos/static/js/runtime-main.e877fe36.js.map",
     "static/js/2.8eb06560.chunk.js": "/meteor-todos/static/js/2.8eb06560.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.968b8054.chunk.js": "/meteor-todos/static/js/3.968b8054.chunk.js",
     "static/js/3.968b8054.chunk.js.map": "/meteor-todos/static/js/3.968b8054.chunk.js.map",
     "index.html": "/meteor-todos/index.html",
-    "static/css/main.0c680848.chunk.css.map": "/meteor-todos/static/css/main.0c680848.chunk.css.map",
+    "static/css/main.bf62b488.chunk.css.map": "/meteor-todos/static/css/main.bf62b488.chunk.css.map",
     "static/js/2.8eb06560.chunk.js.LICENSE.txt": "/meteor-todos/static/js/2.8eb06560.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e877fe36.js",
     "static/js/2.8eb06560.chunk.js",
-    "static/css/main.0c680848.chunk.css",
-    "static/js/main.88ebec6b.chunk.js"
+    "static/css/main.bf62b488.chunk.css",
+    "static/js/main.89a084fc.chunk.js"
   ]
 }
