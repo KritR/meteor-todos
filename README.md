@@ -1,4 +1,5 @@
-# Meteor Todos ☄️
+# Meteor Todos ☄️ 
+![](https://img.shields.io/github/workflow/status/KritR/meteor-todos/github%20pages?style=flat-square)
 
 Simple ✅
 
